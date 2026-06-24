@@ -1,6 +1,5 @@
 [build]
-dockerfilePath = "LavalinkServer/docker/Dockerfile"
+dockerfilePath = "Dockerfile"
 
 [deploy]
-startCommand = "java -jar Lavalink.jar"
 restartPolicyType = "on_failure"
